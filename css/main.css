@@ -23,7 +23,8 @@ body {
 }
 
 .banner-content {
-  margin: 0 1.5rem .9rem;
+  margin: 0;
+  padding: 1.5rem;
   position: absolute;
   width: 100%;
   max-width: 50em;
@@ -33,6 +34,7 @@ body {
 }
 
 .banner-content h2 {
+  display: inline;
   margin: 0;
   font-size: 4rem;
   color: #fff;
@@ -40,6 +42,8 @@ body {
 }
 
 .banner-content p {
+  display: inline-block;
+  padding-top: 1em;
   margin: 0;
   font-size: 2rem;
   font-style: italic;
