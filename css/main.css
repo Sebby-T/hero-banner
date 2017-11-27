@@ -6,3 +6,36 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+}
+
+.img-flex {
+  width: 100%;
+}
+
+.banner-content {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  max-width: 50em;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 50%;
+}
+
+.banner-content h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.banner-content p {
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+}
