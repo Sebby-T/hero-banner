@@ -23,7 +23,7 @@ body {
 }
 
 .banner-content {
-  margin: 1.5em;
+  margin: 0 1.5rem .9rem;
   position: absolute;
   width: 100%;
   max-width: 50em;
@@ -33,19 +33,14 @@ body {
 }
 
 .banner-content h2 {
-  font-size: 4rem;
   margin: 0;
+  font-size: 4rem;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .banner-content p {
+  margin: 0;
   font-size: 2rem;
   font-style: italic;
-  font-weight: bold;
-  margin: 0;
-  margin-right: .5em;
-}
-
-h2::first-line {
-  background-color: rgba(0, 0, 0, .5);
 }
